@@ -80,7 +80,7 @@ iOS 11必须依赖安装：
 (2) 修改XCTestWDMonkey.swift 第42行放开注释<br>
 (3) 修改XCTestWDMonkey.swift  第104行<br>
 ```let tag = "//XCUIElementTypeApplication[@name='壹诊所']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField"```<br>
-(4) 修改 MonkeyXCTestPrivate.swift，替换166行附近的 username，passwd，button 的 xpath<br>
+(4) 修改 MonkeyXCTestPrivate.swift，替换166行附近的 username，passwd，button 的 xpath
 ```let username = "//XCUIElementTypeApplication[@name='壹诊所']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField"
 let passwd = "//XCUIElementTypeApplication[@name='壹诊所']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeSecureTextField"
 let button = "//XCUIElementTypeButton[@name='开始']"
