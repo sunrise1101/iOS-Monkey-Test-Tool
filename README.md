@@ -75,13 +75,11 @@ iOS 11必须依赖安装：
 
 8. 修改Monkey.swift文件中的elapsedTime值确定你需要运行多长时间的Monkey，注意单位是秒
 
-9. 登录插桩
-(1)修改 XCtestWDMonekyController.swift 第70行注释放开
-(2)修改XCTestWDMonkey.swift 第42行放开注释
-(3)修改XCTestWDMonkey.swift  第104行
-
-```let tag = "//XCUIElementTypeApplication[@name='壹诊所']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField"
-```
+9. 登录插桩<br>
+(1).修改 XCtestWDMonekyController.swift 第70行注释放开<br>
+(2).修改XCTestWDMonkey.swift 第42行放开注释<br>
+(3).修改XCTestWDMonkey.swift  第104行
+```let tag = "//XCUIElementTypeApplication[@name='壹诊所']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField"```
 
 (4) 修改 MonkeyXCTestPrivate.swift，替换166行附近的 username，passwd，button 的 xpath
 
