@@ -80,8 +80,7 @@ iOS 11必须依赖安装：
 (2)修改XCTestWDMonkey.swift 第42行放开注释
 (3)修改XCTestWDMonkey.swift  第104行
 
-```let tag = "//XCUIElementTypeApplication[@name='壹诊所']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField"
-```
+```let tag = "//XCUIElementTypeApplication[@name='壹诊所']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextField"```
 
 (4) 修改 MonkeyXCTestPrivate.swift，替换166行附近的 username，passwd，button 的 xpath
 
@@ -134,7 +133,8 @@ $ cd ~/Documents/Fastmonkey/XCTestWD-master/XCTestWD/
 $ xcodebuild -project XCTestWD.xcodeproj -scheme XCTestWDUITests -destination 'platform=iOS Simulator,name=iPhone 8’ XCTESTWD_PORT=8001 clean test
 
 //关闭所有模拟器
-$ killall Simulator```
+$ killall Simulator
+```
 
 
 
@@ -183,7 +183,8 @@ xcodebuild -project XCTestWD.xcodeproj -scheme XCTestWDUITests -destination 'pla
 
 ```echo  "\033[31m final:killall Simulator \033[0m"
 
-killall Simulator```
+killall Simulator
+```
 
 4. 配置邮件通知：点击任务 -> 配置 -> 构建后操作添加 【E-mail Notification】(输入邮箱，多人以空格符分隔)
 
