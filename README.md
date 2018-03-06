@@ -33,13 +33,12 @@
 
 ### 4.安装说明
 
-1. ```
-$  git clone https://github.com/zhangzhao4444/Fastmonkey.git
-```
+1. 
+```$ git clone https://github.com/zhangzhao4444/Fastmonkey.git```
 
-2. ```
-$ cd /Users/xxxxx/Fastmonkey/XCTestWD-master
-```
+
+2. 
+```$ cd /Users/xxxxx/Fastmonkey/XCTestWD-master```
 
 必须依赖安装：
 
